@@ -11,3 +11,15 @@
 1. Movies.csv
 2. Movies.pkl
 3. similarity.pkl
+
+
+# Run django app
+<pre>
+pip install pipenv 
+pipenv install
+pipenv shell
+</pre>
+
+<pre>
+python manage.py runserver
+</pre>
