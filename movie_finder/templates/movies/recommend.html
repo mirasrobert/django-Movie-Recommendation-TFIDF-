@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row w-100">
+	<div class="col-md-12">
+		<h1>Recommendation</h1>
+	</div>
+</div>
+
+<div class="row">
+	{% for title in title_of_movies %}
+	<div class='col-md-3'>
+		<h5>{{ forloop.counter }}. {{ title }}</h5>
+	</div>
+	{% endfor %}
+</div>
+
+{% endblock %}
